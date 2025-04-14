@@ -138,3 +138,30 @@ app.post('/skadnetwork/postback', async (req, res) => {
     }
 });
 ```
+## 6. API References
+
+## `trackClick`
+
+**Description**: Tracks when a user clicks a custom link.
+
+**Parameters**:
+- `source`: The ad source (e.g., TikTok).
+- `campaign`: The campaign ID or name.
+
+**Returns**: A success or failure callback.
+
+---
+
+# 7. FAQs
+
+**Q: How do I get started with SKAdNetwork?**  
+A: Follow the integration steps above to configure your server and receive postbacks from SKAdNetwork after the app install.
+
+**Q: How do I track events inside my app?**  
+A: Use the `trackEvent` function from the SDK to monitor custom events that are relevant to your campaign.
+
+---
+
+# 8. Support
+
+If you need further assistance, feel free to contact us at [support@magmat.app](mailto:jiyan.aslan@magmat.app) or visit our [support page](https://www.magmat.app/).
